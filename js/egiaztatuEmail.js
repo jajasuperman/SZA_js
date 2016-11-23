@@ -17,7 +17,7 @@ function balioztatuBalioak(){
         if(arrobaAgertzea.length == 2) {
             var puntuaAgertzea = arrobaAgertzea[1].split(".");
             if(puntuaAgertzea.length == 2 && puntuaAgertzea[1].length > 2) {
-                alert("Dena ondo eta emaila");
+                //alert("Dena ondo eta emaila");
                 return true;
             }
             else {
@@ -31,7 +31,7 @@ function balioztatuBalioak(){
         }	    
     }
     else {
-        alert("Dena ondo");
+        //alert("Dena ondo");
         return true;
     }
 }
@@ -39,10 +39,11 @@ function balioztatuBalioak(){
 function checkboxGaitu() {    
     var email = document.getElementById("email").value;
     var publiko = document.getElementById("emailPubliko");
-    if(email.length > 0 && publiko.disabled) {
-        publiko.disabled = false;
+    if(email.length > 0) {			        
+       	publiko.disabled = false;        
     }
     else {
-        publiko.disabled = true;
+        	publiko.disabled = true;
+        	publiko.checked = false;
     }
 }
