@@ -18,12 +18,16 @@
 	$date = date('Y-m-d H:i:s');
 	$elem->addChild('data', $date);
 	$elem->addChild('izena', $_POST['izena']);
-	$elem->addChild('iruzkina', $_POST['testua']);
-	
+	$elem->addChild('iruzkina', $_POST['testua']);	
 
-	if (isset($_POST['emaila'])){
-		$emaila = $elem->addChild('emaila', $_POST['email']);
-		$emaila->addAttribute('erakutsi', $_POST['emailPubliko']);
+	if (isset($_POST['email'])){
+		$emaila = $elem->addChild('eposta', $_POST['email']);
+        if(isset($_POST['emailPubliko'])) {
+		  $emaila->addAttribute('erakutsi', "Bai");
+        }
+        else {
+            $emaila->addAttribute('erakutsi', "Ez");
+        }
 	}
 
 	$xml->asXML($fitx);
@@ -35,12 +39,6 @@
     $domxml->save($fitx);
 
 	
-	echo 'Iruzkina Gehitu da';
-
-	/*
-	sleep(3);
-
-	header("Location: ../xml/iruzkinak.xml");
-	die();
-	*/
+	echo 'Iruzkina Gehitu da';    
+    echo '<a href="bisitak.php"><p>Iruzkinak ikusi</p></a>';
 ?>

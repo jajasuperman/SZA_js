@@ -11,18 +11,16 @@
 <!ATTLIST eposta erakutsi (bai | ez) "ez">
 ]>
 <bisitak azkenid="Bisitak">
-  <bisita id="A1">
-    <data>
-			2016/11/23
-		</data>
-    <izena>
-			Thadah
-		</izena>
-    <iruzkina>
-			Nire iruzkina
-		</iruzkina>
-    <eposta erakutsi="ez">
-			gpujana004@gmail.com
-		</eposta>
+  <bisita id="A2">
+    <data>2016-11-23 18:50:29</data>
+    <izena>Eneko</izena>
+    <iruzkina>aaaaa</iruzkina>
+    <eposta erakutsi="Bai">web000@ehu.com</eposta>
+  </bisita>
+  <bisita id="A3">
+    <data>2016-11-23 19:39:26</data>
+    <izena>Sssssssssss</izena>
+    <iruzkina>d</iruzkina>
+    <eposta erakutsi="Bai">web000@ehu.ecom</eposta>
   </bisita>
 </bisitak>
