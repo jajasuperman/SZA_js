@@ -35,7 +35,18 @@
 				<tr>
 					<td><?php echo $elem->data; ?></td>
 					<td><?php echo $elem->izena; ?></td>
-					<td><?php echo $elem->iruzkina; ?></td>
+					<td>
+						<?php 
+							if (strlen($elem->iruzkina) > 50){
+								$iruzkin = substr($elem->iruzkina, 0, 50).'...';
+								echo $iruzkin;
+							}
+							else{
+								echo $elem->iruzkina;
+							}
+						?>
+						
+					</td>
 					<td><?php 
 						if ($elem->eposta['erakutsi'] == "Bai"){
 							echo $elem->eposta; 
