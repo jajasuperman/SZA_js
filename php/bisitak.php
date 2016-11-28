@@ -7,6 +7,13 @@
 		<script type="text/javascript" src="../js/egiaztatuEmail.js"></script>
 		<script type="text/javascript" src="../js/irudiaAldatu.js"></script>
 		<link rel="stylesheet" href="../css/estiloa.css" />
+
+		<script type="text/javascript" language="javascript">
+			function erakutsiGehiago(){
+				xhr = new XMLHttpRequest();
+				
+			}
+		</script>
 		
 	</head>
 
@@ -39,7 +46,9 @@
 						<?php 
 							if (strlen($elem->iruzkina) > 50){
 								$iruzkin = substr($elem->iruzkina, 0, 50).'...';
-								echo $iruzkin;
+								echo "<label id='iruzkina'>".$iruzkin."</label>";
+								echo "</br>";
+								echo "<a id='iruzkinLink' title='Egin klik gehiago ikusteko' href='bisitak.php' onclick='erakutsiGehiago();return false;'>Egin klik gehiago ikusteko</a>";
 							}
 							else{
 								echo $elem->iruzkina;
