@@ -11,16 +11,52 @@
 <!ATTLIST eposta erakutsi (bai | ez) "ez">
 ]>
 <bisitak azkenid="Bisitak">
-  <bisita id="A2">
+  <bisita id="A1">
     <data>2016-11-23 18:50:29</data>
     <izena>Eneko</izena>
     <iruzkina>aaaaa</iruzkina>
     <eposta erakutsi="Bai">web000@ehu.com</eposta>
   </bisita>
-  <bisita id="A3">
+  <bisita id="A2">
     <data>2016-11-23 19:39:26</data>
     <izena>Sssssssssss</izena>
     <iruzkina>d</iruzkina>
     <eposta erakutsi="Bai">web000@ehu.ecom</eposta>
+  </bisita>
+  <bisita id="A4">
+    <data>2016-12-01 15:35:47</data>
+    <izena>Dalia</izena>
+    <iruzkina>sduihj</iruzkina>
+    <eposta erakutsi="Bai">gpujana004@ehu.eus</eposta>
+  </bisita>
+  <bisita id="A5">
+    <data>2016-12-01 15:36:11</data>
+    <izena>Dalia</izena>
+    <iruzkina>UUBDUSBUKJLSFBSOFSBFUISBFKSJFBSFISBFUSBFSJFBJKBUIBUAIFBUISFBHOAIDJADOPADMNAOPDMNOADPAMND</iruzkina>
+    <eposta erakutsi="Bai">gpujana004@ehu.eus</eposta>
+  </bisita>
+  <bisita id="A6">
+    <data>2016-12-01 16:01:41</data>
+    <izena>a</izena>
+    <iruzkina>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremipsum</iruzkina>
+    <eposta erakutsi="Ez">gpujana004@ehu.eus</eposta>
+  </bisita>
+  <bisita id="A7">
+    <data>2016-12-01 16:01:45</data>
+    <izena>a</izena>
+    <iruzkina>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremipsum</iruzkina>
+    <eposta erakutsi="Ez">gpujana004@ehu.eus</eposta>
+  </bisita>
+  <bisita id="A8">
+    <data>2016-12-01 16:01:49</data>
+    <izena>a</izena>
+    <iruzkina>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremipsum</iruzkina>
+    <eposta erakutsi="Ez">gpujana004@ehu.eus</eposta>
+  </bisita>
+  <bisita id="A9">
+    <data>2016-12-01 16:01:53</data>
+    <izena>a</izena>
+    <iruzkina>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremipsum</iruzkina>
+    <eposta erakutsi="Ez">gpujana004@ehu.eus</eposta>
   </bisita>
 </bisitak>
